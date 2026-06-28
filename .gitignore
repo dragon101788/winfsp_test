@@ -6,6 +6,10 @@
 *.obj
 *.log
 
+# Rust
+target/
+
+
 # Python
 __pycache__/
 *.pyc

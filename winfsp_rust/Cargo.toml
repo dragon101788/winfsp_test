@@ -1,0 +1,11 @@
+[package]
+name = "hello_fs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winfsp = { version = "0.13", features = ["system"] }
+winfsp-sys = "0.12"
+
+[build-dependencies]
+winfsp = { version = "0.13", features = ["system"] }
